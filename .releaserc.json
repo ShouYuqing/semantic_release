@@ -70,18 +70,14 @@
     [
       "@semantic-release/npm",
       {
-        "npmPublish": true,
-        "tarballDir": "dist"
+        "npmPublish": false
       }
     ],
     [
       "@semantic-release/github",
       {
         "assets": [
-          {
-            "path": "dist/*.tgz",
-            "label": "Distribution"
-          }
+          "CHANGELOG.md"
         ],
         "addReleases": "bottom"
       }

@@ -1,5 +1,5 @@
 {
-  "name": "@yourusername/semantic-release-demo",
+  "name": "@your-npm-username/semantic-release-demo",
   "version": "0.0.0-development",
   "description": "A project demonstrating automated semantic release with GitHub integration",
   "main": "index.js",
