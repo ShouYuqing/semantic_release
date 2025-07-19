@@ -27,4 +27,4 @@ export function add(a, b) {
 export default {
   greet,
   add
-}; console.log('Hello World');
+};
